@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css">
+	<script src="script.js" defer></script>
+	<title>YouTube Clone</title>
+</head>
+
+<body>
+	<!-- Navbar section -->
+	<nav class="flex">
+		<div class="nav-left flex">
+			<img src="./images/menu.png" alt="Menu Icon" class="menu">
+			<img src="./images/logo.png" alt="Logo" class="logo">
+		</div>
+		<div class="nav-mid flex">
+			<div class="searchBox flex">
+				<input type="text" placeholder="search">
+				<img src="./images/search.png">
+			</div>
+			<img src="./images/voice-search.png" class="mic-icon">
+		</div>
+		<div class="nav-right flex">
+			<img src="./images/upload.png">
+			<img src="./images/more.png">
+			<img src="./images/notification.png">
+			<img src="./images/profile.jpg" class="profile">
+		</div>
+	</nav>
+
+	<div class="container playCont">
+		<div class="row">
+			<div class="play-video">
+				<video controls autoplay>
+					<source src="./images/video.mp4" type="video/mp4">
+				</video>
+				<div class="tags">
+					<div>
+						<a href="">#Coding</a>
+						<a href="">#HTML5</a>
+						<a href="">#CSS3</a>
+						<a href="">#JavaScript</a>
+					</div>
+				</div>
+				<h3>Best Channel to learn Coding and especially web development</h3>
+
+				<div class="play-video-info">
+					<p>15k views &bull; 2 days ago</p>
+					<div>
+						<a href=""><img src="./images/like.png" alt="">224</a>
+						<a href=""><img src="./images/dislike.png" alt="">2</a>
+						<a href=""><img src="./images/share.png" alt="">Share</a>
+						<a href=""><img src="./images/save.png" alt="">Save</a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="publisher">
+					<div class="publisher-info">
+						<img src="./images/Jack.png" alt="">
+						<div>
+							<h4>WpWebMaster</h4>
+							<p>500k Subscribers</p>
+							<p class="channel-details">Channel that makes learning Easy <br>Subscribe WpWebMaster now to watch more such videos</p>
+						</div>
+					</div>
+					<button type="button">Subscribe</button>
+				</div>
+				<hr>
+				<h4>134 Comments</h4>
+
+				<!-- Comment section -->
+				 <div class="addComment">
+					<img src="./images/Jack.png" alt="">
+					<input type="text" placeholder="Search Here">
+				 </div>
+
+				 <!-- Existing Comments -->
+				  <div class="existingComments">
+					<img src="./images/gerard.png" alt="">
+					<div class="commentInfo">
+						<p>Gerard <span>2 days ago</span></p>
+						<h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error voluptate provident laborum molestias cupiditate. Eius possimus quasi debitis commodi pariatur.</h6>
+						<div class="reactions">
+							<a href=""><img src="./images/like.png" alt="">222</a>
+							<a href=""><img src="./images/dislike.png" alt="">2</a>
+							<a href="">Reply</a>
+							<a href="" class="all-replies">All Replies</a>
+						</div>
+					</div>
+				  </div>
+
+					<div class="existingComments">
+						<img src="./images/gerard.png" alt="">
+						<div class="commentInfo">
+							<p>Gerard <span>2 days ago</span></p>
+							<h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error voluptate provident laborum molestias
+								cupiditate. Eius possimus quasi debitis commodi pariatur.</h6>
+							<div class="reactions">
+								<a href=""><img src="./images/like.png" alt="">222</a>
+								<a href=""><img src="./images/dislike.png" alt="">2</a>
+								<a href="">Reply</a>
+								<a href="" class="all-replies">All Replies</a>
+							</div>
+						</div>
+					</div>
+
+
+			</div>
+
+			<!-- Right Sidebar -->
+			<div class="right-sidebar">
+				<!-- Repeat this block for each video item -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail4.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail2.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail4.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail1.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail2.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail4.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail2.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail3.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+				<div class="side-video-list">
+					<a href="#" class="smallThumbnail">
+						<img src="./images/thumbnail4.png" alt="Thumbnail">
+					</a>
+					<div class="video-info">
+						<a href="#">Best Channel to learn Coding and especially web development</a>
+						<p>WpWebMaster</p>
+						<p>15k views &bull; 2 days ago</p>
+					</div>
+				</div>
+				<!-- End of video item block -->
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
